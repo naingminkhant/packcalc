@@ -1,0 +1,19 @@
+{
+    "name": "vostro/calculator",
+    "description": "calculation for easy.",
+    "authors": [
+        {
+            "name": "vostro",
+            "email": "naingminkhant.cm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "classmap":["database"],
+        "psr-4":{
+            "App\\":"app/",
+            "Vostro\\Calculator\\":"packages/vostro/calculator/src"
+        }
+    }
+}
