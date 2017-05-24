@@ -8,7 +8,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "illuminate/support": "^5.0"
+    },
     "autoload":{
         "classmap":["database"],
         "psr-4":{
